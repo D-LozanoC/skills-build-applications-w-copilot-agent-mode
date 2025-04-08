@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 ]
 
+INSTALLED_APPS += ["octofit_tracker"]
+INSTALLED_APPS += ["octofit_tracker.backend.octofit_tracker"]
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
